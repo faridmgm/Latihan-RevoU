@@ -1,17 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="header.css">    
+    <link rel="stylesheet" href="header.css"> 
+
   </head>
   <body>
     <nav class="container">
-       <img src="https://github.com/faridmgm/Latihan-RevoU/blob/main/w1d3/revoU.png?raw=true" class="logo" width="40" height="40"/>
+       <img src="https://github.com/faridmgm/Latihan-RevoU/blob/main/w1d3/revoU.png?raw=true" class="logo" width="40" height="40" 
+        />
 
        <div class="home">Home</div>
-       <div class="Search">Search</div>
-       <div class="Logout">Logout</div>
-    </nav>  
+       <div class="search">Search</div>
+       <div class="ogout">Logout</div>
+    </nav> 
+    <header>
+      <h1> Forn Belajar</h1>
+      <p>Ini Adalah Website Latihan Pertama</p>
+    </header>
+    <main class="content" style="flex-direction: row ; display: flex;">
+		<div style="flex; flex: 1; align-content: center; justify-content: center ">
+			<form action="https://www.google.com/" metod="post">
+				<label for="name">Nama :</label>
+				<input id="name" type="text">
+				<br>
+				<label for="tanggallahir">Tanggal Lahir :</label>
+				<input id="tanggallahir" type="Number" min="1" max="99"><br>
+				
+				<label for="jeniskelamin">Jenis Kelamin :</label>
+				<input type="radio" id="Laki-Laki" name="Jeniskelamin" value="Laki-Laki">
+				<label for="Laki-Laki">Laki-Laki</label>
+				<input type="radio" id="Perempuan" name="Jeniskelamin" value="Perempuan">
+				<label for="Perempuan">Perempuan</label><br>
+		
+				<label for="pesan">Pesan :</label>
+				<textarea rows="8" Cols="64" id="pesan" type="textarea"></textarea><br>
+		
+		
+		
+				<input type="submit" value="Submit"> <br>
+		
+		
+			</form>
+		</div>
 
+
+		<div style="flex; flex: 1; align-content: center; justify-content: center ">
+			<table>
+				<tr>
+					<th>Nama</th>
+					<th>Tanggal Lahir</th>
+					<th>Jenis Kelamin</th>
+					<th>Pesan</th>
+					<th>Profil</th>
+					<th>Delete</th>
+				</tr>
+				<tr>			
+					<td>Ada Lovelance</td>
+					<td>December 10, 1815</td>
+					<td>Perempuan</td>	
+					<td>Belajar Buat Website</td>
+					<td><a href="https://www.google.com">Klik Disini</a></td>
+					<td>Delete</td>
+				</tr>
+				<tr>			
+					<td>Grace Hopper</td>
+					<td>December 9, 1906</td>
+					<td>Perempuan</td>	
+					<td>Hello World</td>
+					<td><a href="https://www.google.com">Klik Disini</a></td>
+					<td>Delete</td>
+				</tr>
+				<tr>			
+					<td>Margaret Hamilton</td>
+					<td>Agust 17, 1936</td>
+					<td>Perempuan</td>	
+					<td>Test Dulu</td>
+					<td><a href="https://www.google.com" target="_blank">Klik Disini</a></td>
+					<td>Delete</td>
+				</tr>
+				<tr>			
+					<td>Joan Clarke</td>
+					<td>June 24, 1917</td>
+					<td>Laki-Laki</td>	
+					<td>Selalu Semangat</td>
+					<td><a href="https://www.google.com">Klik Disini</a></td>
+					<td>Delete</td>
+				</tr>
+		
+		
+			</table>
+		</div>
+	
+	 <br>
+
+	
+</main>
+    
+    <footer>
+      <p>revoU 2024</p>
+    </footer>
   
   </body>
 </html>
